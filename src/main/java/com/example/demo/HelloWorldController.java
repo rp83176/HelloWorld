@@ -9,6 +9,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello() {
+        return "Hello world 2020";
         return "Hello world 2021";
     }
 }
